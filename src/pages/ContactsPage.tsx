@@ -9,6 +9,8 @@ import { useToast } from "@/hooks/use-toast";
 import { supabase } from "@/integrations/supabase/client";
 import { Mail, Search, Filter, Plus, Send, Upload, Phone, Building, MapPin, User } from "lucide-react";
 import ContactImporter from "@/components/ContactImporter";
+import { ImportJJPContactsButton } from "@/components/ImportJJPContactsButton";
+import { ContactStats } from "@/components/ContactStats";
 import {
   Select,
   SelectContent,
@@ -201,6 +203,9 @@ export default function ContactsPage() {
         </p>
       </div>
 
+      {/* Contact Statistics */}
+      <ContactStats />
+
       {/* Filters and Actions */}
       <Card className="shadow-soft">
         <CardHeader>
@@ -215,6 +220,8 @@ export default function ContactsPage() {
               </CardDescription>
             </div>
             <div className="flex gap-2">
+              <ImportJJPContactsButton onImportComplete={fetchContacts} />
+              
               <Dialog open={showImportDialog} onOpenChange={setShowImportDialog}>
                 <DialogTrigger asChild>
                   <Button variant="outline">
