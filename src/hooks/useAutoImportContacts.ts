@@ -58,7 +58,7 @@ export function useAutoImportContacts(user: any) {
 
   const importJJPContacts = async () => {
     try {
-      // JJP Contacts data
+      // JJP Contacts data - same as DirectImportJJPContacts component
       const contacts = [
         {
           name: "Keith Pheeney",

@@ -10,6 +10,7 @@ import { supabase } from "@/integrations/supabase/client";
 import { Mail, Search, Filter, Plus, Send, Upload, Phone, Building, MapPin, User } from "lucide-react";
 import ContactImporter from "@/components/ContactImporter";
 import { ImportJJPContactsButton } from "@/components/ImportJJPContactsButton";
+import { DirectImportJJPContacts } from "@/components/DirectImportJJPContacts";
 import { ContactStats } from "@/components/ContactStats";
 import {
   Select,
@@ -74,7 +75,23 @@ export default function ContactsPage() {
         .order('created_at', { ascending: false });
 
       if (error) throw error;
-      setContacts(data || []);
+      const contactsData = data || [];
+      setContacts(contactsData);
+      
+      // Auto-import if no contacts exist and user hasn't dismissed auto-import
+      if (contactsData.length === 0) {
+        const autoImportDismissed = localStorage.getItem('jjp_auto_import_dismissed');
+        if (!autoImportDismissed) {
+          // Show a helpful message that import is available
+          setTimeout(() => {
+            toast({
+              title: "No contacts found",
+              description: "Click 'Import JJP Contacts Now' to load your contact data",
+              duration: 8000,
+            });
+          }, 1000);
+        }
+      }
     } catch (error: any) {
       console.error('Error fetching contacts:', error);
       toast({
@@ -220,7 +237,7 @@ export default function ContactsPage() {
               </CardDescription>
             </div>
             <div className="flex gap-2">
-              <ImportJJPContactsButton onImportComplete={fetchContacts} />
+              <DirectImportJJPContacts onImportComplete={fetchContacts} />
               
               <Dialog open={showImportDialog} onOpenChange={setShowImportDialog}>
                 <DialogTrigger asChild>
