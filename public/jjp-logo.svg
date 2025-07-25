@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="60" viewBox="0 0 200 60" fill="none">
+  <defs>
+    <linearGradient id="jjpGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1D4ED8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- JJP Letters -->
+  <g fill="url(#jjpGradient)" font-family="system-ui, -apple-system, sans-serif" font-weight="700">
+    <!-- First J -->
+    <path d="M15 12h8v22c0 6-4 10-10 10s-10-4-10-10h4c0 3 2 5 5 5s5-2 5-5V12z"/>
+    
+    <!-- Second J -->
+    <path d="M35 12h8v22c0 6-4 10-10 10s-10-4-10-10h4c0 3 2 5 5 5s5-2 5-5V12z"/>
+    
+    <!-- P -->
+    <path d="M55 12h10c6 0 10 4 10 10s-4 10-10 10h-6v12h-4V12zm4 16h6c3 0 5-2 5-5s-2-5-5-5h-6v10z"/>
+  </g>
+  
+  <!-- Solutions Text -->
+  <text x="85" y="28" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="500" fill="#64748B">Solutions</text>
+  
+  <!-- Tagline -->
+  <text x="85" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="400" fill="#94A3B8">Professional Business Solutions</text>
+</svg>

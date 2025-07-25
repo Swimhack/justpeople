@@ -1,0 +1,28 @@
+project_id = "khpxxilvraavgartihvl"
+
+[functions.send-email]
+verify_jwt = false
+
+[functions.ai-assistant]
+verify_jwt = true
+
+[functions.news-aggregator]
+verify_jwt = false
+
+[functions.news-intelligence]
+verify_jwt = false
+
+[functions.seed-news-data]
+verify_jwt = false
+
+[functions.wooc-document-processor]
+verify_jwt = true
+
+[functions.wooc-assistant]
+verify_jwt = true
+
+[functions.crm-lead-processor]
+verify_jwt = false
+
+[functions.crm-email-campaign]
+verify_jwt = false

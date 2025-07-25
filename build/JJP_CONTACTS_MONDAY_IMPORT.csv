@@ -1,0 +1,28 @@
+name,email,phone,company,title,location,notes,tags,status
+Bobby LaPenna,bobby@jjpsolutions.com,555-0101,JJP Solutions,CEO,New York,Founder and CEO of JJP Solutions,VIP;Founder,Active
+Sarah Chen,sarah.chen@techcorp.com,555-0102,TechCorp,CTO,San Francisco,Chief Technology Officer,Tech;Executive,Active
+Michael Rodriguez,m.rodriguez@salesforce.com,555-0103,Salesforce,Sales Director,Austin,Enterprise sales director,Sales;Lead,Active
+Jennifer Kim,jkim@startupxyz.com,555-0104,StartupXYZ,Product Manager,Seattle,Product management lead,Product;Startup,Active
+David Thompson,dthompson@consulting.com,555-0105,Thompson Consulting,Principal,Chicago,Management consultant,Consulting;Expert,Active
+Lisa Wang,lwang@marketing.agency,555-0106,Creative Marketing,Creative Director,Los Angeles,Brand and creative strategy,Marketing;Creative,Active
+James Wilson,jwilson@techstart.io,555-0107,TechStart.io,Founder,Boston,Early-stage tech entrepreneur,Startup;Founder,Active
+Amanda Foster,afoster@hrpro.com,555-0108,HR Pro Solutions,VP Human Resources,Denver,HR strategy and operations,HR;Executive,Active
+Carlos Mendez,cmendez@finance.corp,555-0109,FinanceCorp,CFO,Miami,Chief Financial Officer,Finance;C-Suite,Active
+Rachel Green,rgreen@designstudio.com,555-0110,Design Studio,Lead Designer,Portland,UX/UI design specialist,Design;Creative,Active
+Thomas Lee,tlee@operations.biz,555-0111,Operations Plus,Operations Manager,Dallas,Process optimization expert,Operations;Efficiency,Active
+Nina Patel,npatel@datasci.com,555-0112,DataSci Analytics,Data Scientist,San Diego,Machine learning specialist,Data;Analytics,Active
+Mark Johnson,mjohnson@sales.pro,555-0113,SalesPro Inc,Account Executive,Phoenix,B2B sales professional,Sales;Growth,Active
+Emily Davis,edavis@content.media,555-0114,Content Media,Content Manager,Nashville,Content strategy and creation,Content;Media,Active
+Robert Kim,rkim@security.tech,555-0115,SecureTech,Security Analyst,Washington DC,Cybersecurity specialist,Security;Tech,Active
+Jessica Martinez,jmartinez@ecommerce.shop,555-0116,E-Commerce Plus,Marketing Manager,Atlanta,Digital marketing expert,Marketing;E-commerce,Active
+Andrew Chang,achang@mobile.dev,555-0117,Mobile Dev Co,iOS Developer,San Jose,Mobile app development,Development;Mobile,Active
+Kelly Brooks,kbrooks@events.plan,555-0118,Events & More,Event Coordinator,Las Vegas,Corporate event planning,Events;Coordination,Active
+Daniel Park,dpark@logistics.move,555-0119,LogiMove,Supply Chain Manager,Houston,Logistics and supply chain,Logistics;Operations,Active
+Samantha Taylor,staylor@legal.firm,555-0120,Taylor Legal,Legal Counsel,Philadelphia,Corporate legal advisor,Legal;Corporate,Active
+Christopher Lee,clee@realestate.biz,555-0121,Premier Realty,Real Estate Agent,Orlando,Commercial real estate,RealEstate;Commercial,Active
+Maria Gonzalez,mgonzalez@nonprofit.org,555-0122,Community Impact,Program Director,San Antonio,Non-profit program management,NonProfit;Community,Active
+Kevin O'Brien,kobrien@manufacturing.inc,555-0123,Manufacturing Inc,Plant Manager,Detroit,Manufacturing operations,Manufacturing;Operations,Active
+Lauren Smith,lsmith@education.edu,555-0124,EduTech Solutions,Training Manager,Minneapolis,Corporate training programs,Education;Training,Active
+Alexander Chen,achen@research.lab,555-0125,Research Labs,Research Director,Baltimore,R&D and innovation,Research;Innovation,Active
+Victoria Brown,vbrown@healthcare.med,555-0126,HealthCare Partners,Practice Manager,Salt Lake City,Healthcare administration,Healthcare;Management,Active
+Justin Miller,jmiller@transport.move,555-0127,Transport Solutions,Fleet Manager,Kansas City,Transportation logistics,Transport;Logistics,Active
