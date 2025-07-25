@@ -1,5 +1,6 @@
 import { useAuth } from '@/hooks/useAuth';
 import { useRoles } from '@/hooks/useRoles';
+import { useAutoImportContacts } from '@/hooks/useAutoImportContacts';
 import { Navigate } from 'react-router-dom';
 import { Loader2 } from 'lucide-react';
 
@@ -14,6 +15,9 @@ export function ProtectedAdminRoute({
 }: ProtectedAdminRouteProps) {
   const { user, loading: authLoading } = useAuth();
   const { hasAdminAccess, isAdmin, loading: rolesLoading, error: rolesError, roles } = useRoles();
+  
+  // Auto-import JJP contacts on first login
+  useAutoImportContacts(user);
 
   console.log('🛡️ ProtectedAdminRoute check:', { 
     user: user?.email, 
